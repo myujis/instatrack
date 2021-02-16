@@ -1,0 +1,87 @@
+.content_wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(34, 118, 167, 0.671);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    background: rgba(20, 59, 85, 0.4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    user-select: none;
+    color: white;
+    font-weight: 400;
+}
+
+.card {
+    width: 600px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile_picture {
+    position: absolute;
+    top: 25px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: black;
+    box-shadow: 0px 7px 15px 10px rgba(0, 0, 0, 0.15);
+}
+
+.info {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.info_posts,
+.info_following {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_posts p,
+.info_following p {
+    line-height: 0.005;
+}
+.info_posts p:nth-child(1),
+.info_following p:nth-child(1) {
+    font-weight: 500;
+    font-size: x-large;
+}
+.info_posts p:nth-child(2),
+.info_following p:nth-child(2) {
+    font-weight: 500;
+    font-size: large;
+}
+
+.divider {
+}
